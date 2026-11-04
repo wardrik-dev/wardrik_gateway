@@ -24,7 +24,7 @@ children = [
 ```
 
 With [WardrikCore](https://hexdocs.pm/wardrik_core) alone, pass the same entry in an agent's
-`:middleware`. See `WardrikCore.Middleware`.
+`:middleware`.
 
 - A model with an open breaker is skipped. The call goes to the next model in `fallbacks`.
 - A call to a provider at its limit is delayed until the provider has capacity.
